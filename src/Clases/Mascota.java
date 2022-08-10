@@ -6,7 +6,7 @@ package Clases;
 
 /**
  *
- * @author Aaron Mena Bogarin
+ * @author Aron
  */
 public class Mascota {
     
@@ -56,9 +56,9 @@ public class Mascota {
      * @param salud Valor a sumar.
      */
     public void setSalud(int salud) {
-        if ((this.salud += salud) < 0){
+        if (this.salud + salud < 0){
             this.salud = 0;
-        }else if((this.salud += salud) > 100){
+        }else if(this.salud + salud > 100){
             this.salud = 100;
         }else{
             this.salud += salud;
@@ -77,9 +77,9 @@ public class Mascota {
      * @param hambre Valor a sumar.
      */
     public void setHambre(int hambre) {
-        if ((this.hambre += hambre) < 0){
+        if (this.hambre + hambre < 0){
             this.hambre = 0;
-        }else if((this.hambre += hambre) > 100){
+        }else if(this.hambre + hambre > 100){
             this.hambre = 100;
         }else{
             this.hambre += hambre;
@@ -98,9 +98,9 @@ public class Mascota {
      * @param sueno Valor a sumar.
      */
     public void setSueno(int sueno) {
-        if ((this.sueno += sueno) < 0){
+        if (this.sueno + sueno < 0){
             this.sueno = 0;
-        }else if((this.sueno += sueno) > 100){
+        }else if(this.sueno + sueno > 100){
             this.sueno = 100;
         }else{
             this.sueno += sueno;
@@ -119,9 +119,9 @@ public class Mascota {
      * @param aburrimiento Valor a sumar.
      */
     public void setAburrimiento(int aburrimiento) {
-        if ((this.aburrimiento += aburrimiento) < 0){
+        if (this.aburrimiento + aburrimiento < 0){
             this.aburrimiento = 0;
-        }else if((this.aburrimiento += aburrimiento) > 100){
+        }else if(this.aburrimiento + aburrimiento > 100){
             this.aburrimiento = 100;
         }else{
             this.aburrimiento += aburrimiento;
