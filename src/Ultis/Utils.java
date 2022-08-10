@@ -20,4 +20,8 @@ public class Utils {
     public static int azar(int max){
         return azar(max,0);
     }
+    public static boolean lanzarMoneda(){
+        int n = azar(1);
+        return n != 0;
+    }
 }
